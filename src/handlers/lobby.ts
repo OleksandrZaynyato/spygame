@@ -1,10 +1,10 @@
 import { Bot } from "grammy";
-import { lobbyService } from "../services/lobby.service";
-import { renderLobby } from "../utils/render";
-import { removePlayerKeyboard } from "../keyboards/lobby";
-import { impostersKeyboard } from "../keyboards/lobby";
-import { categoriesKeyboard } from "../keyboards/categories";
-import { revealKeyboard } from "../keyboards/reveal";
+import { lobbyService } from "../services/lobby.service.js";
+import { renderLobby } from "../utils/render.js";
+import { removePlayerKeyboard } from "../keyboards/lobby.js";
+import { impostersKeyboard } from "../keyboards/lobby.js";
+import { categoriesKeyboard } from "../keyboards/categories.js";
+import { revealKeyboard } from "../keyboards/reveal.js";
 
 const waitingForName = new Set<number>();
 

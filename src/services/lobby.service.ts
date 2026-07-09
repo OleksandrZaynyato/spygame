@@ -1,5 +1,5 @@
-import type {Game, Lobby} from "../models/game";
-import { categories } from "../data/categories";
+import type {Game, Lobby} from "../models/game.js";
+import { categories } from "../data/categories.js";
 import { randomInt } from "crypto";
 
 class LobbyService {

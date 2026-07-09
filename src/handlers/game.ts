@@ -1,8 +1,8 @@
 import { Bot } from "grammy";
-import { lobbyService } from "../services/lobby.service";
-import { hideWordKeyboard } from "../keyboards/reveal";
-import { revealKeyboard } from "../keyboards/reveal";
-import { renderLobby } from "../utils/render";
+import { lobbyService } from "../services/lobby.service.js";
+import { hideWordKeyboard } from "../keyboards/reveal.js";
+import { revealKeyboard } from "../keyboards/reveal.js";
+import { renderLobby } from "../utils/render.js";
 
 export function registerGameHandler(bot: Bot) {
 

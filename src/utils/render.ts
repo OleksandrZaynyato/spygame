@@ -1,6 +1,6 @@
 import { Context } from "grammy";
-import { lobbyService } from "../services/lobby.service";
-import { lobbyKeyboard } from "../keyboards/lobby";
+import { lobbyService } from "../services/lobby.service.js";
+import { lobbyKeyboard } from "../keyboards/lobby.js";
 
 export async function renderLobby(ctx: Context) {
     const lobby = lobbyService.getLobby();

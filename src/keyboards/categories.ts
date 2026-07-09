@@ -1,5 +1,5 @@
 import { InlineKeyboard } from "grammy";
-import { categories } from "../data/categories";
+import { categories } from "../data/categories.js";
 
 export function categoriesKeyboard() {
     const keyboard = new InlineKeyboard();

@@ -1,7 +1,7 @@
 import { Bot } from "grammy";
-import { registerStartHandler } from "./handlers/start";
-import { registerLobbyHandler } from "./handlers/lobby";
-import { registerGameHandler } from "./handlers/game";
+import { registerStartHandler } from "./handlers/start.js";
+import { registerLobbyHandler } from "./handlers/lobby.js";
+import { registerGameHandler } from "./handlers/game.js";
 
 const token = process.env.BOT_TOKEN;
 
