@@ -98,7 +98,7 @@ export function registerGameHandler(bot: Bot) {
 
         const imposters =
             game.imposters
-                .map(index => game.players[index])
+                .map((index: number) => game.players[index])
                 .join(", ");
 
 
