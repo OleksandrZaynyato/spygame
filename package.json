@@ -1,0 +1,33 @@
+{
+  "name": "spygame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksandrZaynyato/spygame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksandrZaynyato/spygame/issues"
+  },
+  "homepage": "https://github.com/OleksandrZaynyato/spygame#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "grammy": "^1.44.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2"
+  }
+}
